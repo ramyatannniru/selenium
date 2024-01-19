@@ -1,0 +1,14 @@
+<suite name="Suite">
+<test name="Test1">
+<classes>
+<class name="annoataion.dependecy.asser.Class2"/>
+<class name="annoataion.dependecy.asser.Class1"/>
+</classes>
+</test>
+<test name="Test2">
+<classes>
+<class name="annoataion.dependecy.asser.Class1"/>
+<class name="annoataion.dependecy.asser.Class2"/>
+</classes>
+</test>
+</suite>
