@@ -27,7 +27,7 @@ public static void main(String[] args) {
 		
 		//capture id's for browser windows
 		Set<String> windowIDs=driver.getWindowHandles();  // store 2 window id's
-		
+		  System.out.println(windowIDs);
 		//Approach1 - using List collection
 		/*
 		List <String>windowidsList=new ArrayList(windowIDs); // converted Set ---> List

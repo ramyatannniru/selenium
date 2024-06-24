@@ -31,11 +31,12 @@ public class DoubleClickDemo {
 
 		//validation
 		WebElement f2=driver.findElement(By.xpath("//input[@id='field2']"));
-		
+	
 		//String copiedtext=f2.getText();  // will not work
 		String copiedtext=f2.getAttribute("value");  // this will work
 		
 		System.out.println("Copied text is:"+copiedtext);
+		System.out.println(" text is:"+ f2.getText());
 		
 		if(copiedtext.equals("Welcome"))
 		{

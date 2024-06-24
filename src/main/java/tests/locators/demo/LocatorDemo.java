@@ -20,11 +20,11 @@ public class LocatorDemo {
 		 
 		Thread.sleep(1000);
 				 
-				driver1.findElement(By.name("search-suggestions-nykaa")).sendKeys("foundation");
+			//	driver1.findElement(By.name("search-suggestions-nykaa")).sendKeys("foundation");
 				 
 				
 				 
-				 
+		driver1.findElement(By.xpath("//input[@name='search-suggestions-nykaa']"));
 			
 						 
 						

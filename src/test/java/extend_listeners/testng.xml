@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+<listners>
+<listner class-name="extend_listeners.ExtentReportManager"/>
+</listners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="extend_listeners.NopCommerceTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

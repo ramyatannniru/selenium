@@ -21,7 +21,7 @@ public class Locatorsdemo1 {
 			Thread.sleep(1000);
 					 
 					List<WebElement> data=driver1.findElements(By.className("header"));
-					
+				
 					System.out.println(data.size());
 					
 					

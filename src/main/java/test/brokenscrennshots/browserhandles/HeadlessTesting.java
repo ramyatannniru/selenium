@@ -44,7 +44,7 @@ public class HeadlessTesting {
 				//Appraoch1
 			    EdgeOptions options=new EdgeOptions();
 				options.setHeadless(true);
-				
+			
 				//WebDriverManager.edgedriver().setup();
 				WebDriver driver=new EdgeDriver(options);
 				

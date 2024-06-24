@@ -160,7 +160,7 @@ WebDriver driver=new ChromeDriver();
 		//Select Country
 		WebElement country=driver.findElement(By.id("country-list"));
 		Select countrydrp=new Select(country);
-					
+			
 		List<WebElement> cnt=countrydrp.getOptions();
 		System.out.println(cnt.size());
 		

@@ -1,0 +1,18 @@
+
+
+<suite name="mysuite" thread-count="2" parallel="tests">
+<test name="edge test">
+<parameter name="browser" value="edge"/>
+<parameter name="url" value="https://signup.heroku.com/"/>
+<classes>
+  <class name="testng.parallel.Parallel"/>
+</classes>
+</test>
+<test name="chrome test">
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="https://signup.heroku.com/"/>
+<classes>
+  <class name="testng.parallel.Parallel"/>
+</classes>
+</test>
+</suite>
